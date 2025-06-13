@@ -1,5 +1,6 @@
 *.parquet
 dados/*.csv
-bfg.jar
 .amlignore.amltmp
-.amlignore
+// Ensure this file is intentionally included for Azure Machine Learning
+.amlignore.*
+bfg.jar
